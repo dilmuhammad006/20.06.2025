@@ -61,6 +61,7 @@ nav p {
   border: 1px solid #979797;
   border-radius: 3px;
   padding: 15px;
+  cursor: pointer;
 }
 .cabinet p {
   font-weight: 500;
@@ -116,4 +117,56 @@ nav p {
   border-radius: 3px;
   font-weight: 500;
   font-size: 13px;
+  cursor: cabinet;
+}
+
+.container {
+  width: 100%;
+  max-width: 1232px;
+  margin: 89px auto 0;
+  padding: 16px;
+}
+
+.container p {
+  font-weight: 500;
+  font-size: 36px;
+  margin: 23px 0;
+}
+.content-wrapper {
+  width: 584px;
+  height: 320px;
+  padding: 32px 28px;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  margin-top: 105px;
+  max-width: 460px;
+  width: 100%;
+}
+.info h2 {
+  font-weight: 500;
+  font-size: 26px;
+}
+.info h3 {
+  font-weight: 500;
+  font-size: 13px;
+  color: #5cf0d5;
+  margin: 10px 0;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 16px;
+}
+.content img:hover{
+  cursor: pointer;
 }
